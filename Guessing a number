@@ -1,0 +1,11 @@
+import random
+hidden=random.randrange(1,100)
+while(1):
+    guess=int(input("Enter a numbwer between 1 and 100:"))
+    if guess==hidden:
+        print("Guess is correct")
+        break
+    elif guess>hidden:
+        print("Guess is high Try again")
+    else:
+        print("Guess is low Try again ")
